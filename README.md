@@ -2,7 +2,7 @@
 Run the ARM64 version of Minecraft through the stock launcher
 
 ## Quick Install
-Make sure you have an ARM64 version of Java installed first! You can download the Azul Zulu JDK [here](https://www.azul.com/downloads/?package=jdk#download-openjdk).
+Make sure you have an ARM64 version of Java installed first! You can download the Azul Zulu JDK [here](https://www.azul.com/downloads/?os=macos&architecture=arm-64-bit&package=jdk) (DMG is easiest!).
 
 Run `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/lotuspar/MinecraftAppleSiliconShim/main/quick.sh)"` in the Terminal. Alternatively, download quick.sh yourself, make it executable and run it.\
 \
