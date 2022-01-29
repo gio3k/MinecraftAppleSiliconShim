@@ -1,6 +1,6 @@
 /**
  * @file shim.cpp
- * @author par0-git / lotuspar
+ * @author lotuspar
  * @brief Wrapper to run instances of Minecraft with aarch64 Java from the normal launcher
  * @date 2021-2022
  */
