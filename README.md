@@ -25,6 +25,9 @@ After getting the requirements just set the Java executable in your Minecraft pr
 ### Troubleshooting
 Bugs in the shim won't be visible in the Minecraft launcher. To see them look at "m1shimlog.txt" in the Minecraft data directory.
 
+### Minecraft errors
+If you get the error `Could not initialize class ca.weblite.objc.RuntimeUtils` go to the Minecraft data directory / the modpack directory and open `options.txt`. Change `fullscreen: true` to `fullscreen: false`
+
 ### Java version changing
 By default the shim will use the first Java found in the path (the one used when running `java` in the Terminal)\
 To change the Java version running the game, pass `-javahome (path to java home directory)` to the game arguments. You can do this right below where you set the profile Java executable.\
