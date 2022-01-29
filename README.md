@@ -22,3 +22,8 @@ Bugs in the shim won't be visible in the Minecraft launcher. To see them look at
 By default the shim will use the first Java found in the path (the one used when running `java` in the Terminal)\
 To change the Java version running the game, pass `-javahome (path to java home directory)` to the game arguments. You can do this right below where you set the profile Java executable.\
 To find Java home directories on your system, run `/usr/libexec/java_home -V` in the Terminal.
+
+## Credits
+This is definitely not a full list, but thanks to:\
+[yusefnapora](https://github.com/yusefnapora) for making [m1-multimc-hack](https://github.com/yusefnapora/m1-multimc-hack)! This was the main starting point for MinecraftAppleSiliconShim!\
+[tanmayb123](https://github.com/tanmayb123) for some of the biggest work getting Minecraft running natively on M1 machines with [AppleSiliconMinecraft.md](https://gist.github.com/tanmayb123/d55b16c493326945385e815453de411a)!
