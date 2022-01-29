@@ -2,12 +2,14 @@
 Run the ARM64 version of Minecraft through the stock launcher
 
 ## Quick Install
+Make sure you have an ARM64 version of Java installed first! You can download the Azul Zulu JDK [here](https://www.azul.com/downloads/?package=jdk#download-openjdk).
+
 Run `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/lotuspar/MinecraftAppleSiliconShim/main/quick.sh)"` in the Terminal. Alternatively, download quick.sh yourself, make it executable and run it.\
 \
 If you don't want to use the quick installer (or it doesn't work) follow the steps below.
 
 ## Requirements
-To use this you need the ARM64 LWJGL natives & fat binary. You can get this from [m1-multimc-hack](https://github.com/yusefnapora/m1-multimc-hack).\
+To use this you need an [ARM64 / AArch64 version of Java](https://www.azul.com/downloads/?package=jdk#download-openjdk) and the ARM64 LWJGL natives & fat binary. You can get this from [m1-multimc-hack](https://github.com/yusefnapora/m1-multimc-hack).\
 These need to be in a folder called "shim" in the Minecraft data directory (~/Library/Application Support/minecraft)\
 \
 The end result should be 2 paths existing like this:\
