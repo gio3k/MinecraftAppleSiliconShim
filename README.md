@@ -6,7 +6,9 @@ Make sure you have an ARM64 version of Java installed first! You can download th
 
 Run `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/lotuspar/MinecraftAppleSiliconShim/main/quick.sh)"` in the Terminal. Alternatively, download quick.sh yourself, make it executable and run it.\
 \
-If you don't want to use the quick installer (or it doesn't work) follow the steps below.
+If you don't want to use the quick installer (or it doesn't work) follow the steps starting from Requirements.\
+\
+After the quick installer is done, [change the Java executable](https://github.com/lotuspar/MinecraftAppleSiliconShim/raw/main/images/what's%20a%20java%20executable%3F%3F%3F.png) for a launcher profile to the shim (probably stored in your user folder)
 
 ## Requirements
 To use this you need an [ARM64 / AArch64 version of Java](https://www.azul.com/downloads/?package=jdk#download-openjdk) and the ARM64 LWJGL natives & fat binary. You can get this from [m1-multimc-hack](https://github.com/yusefnapora/m1-multimc-hack).\
